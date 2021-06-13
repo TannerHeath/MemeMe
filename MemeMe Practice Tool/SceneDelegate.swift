@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  MemeMe Practice Tool
+//  MemeMe 1.0
 //
 //  Created by Tanner Heath on 10/25/20.
 //

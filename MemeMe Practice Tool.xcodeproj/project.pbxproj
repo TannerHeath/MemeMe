@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		5C3FA85D2545F27100481E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FA85C2545F27100481E1C /* AppDelegate.swift */; };
 		5C3FA85F2545F27100481E1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FA85E2545F27100481E1C /* SceneDelegate.swift */; };
-		5C3FA8612545F27100481E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FA8602545F27100481E1C /* ViewController.swift */; };
+		5C3FA8612545F27100481E1C /* MemeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FA8602545F27100481E1C /* MemeGeneratorViewController.swift */; };
 		5C3FA8642545F27100481E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FA8622545F27100481E1C /* Main.storyboard */; };
 		5C3FA8662545F27400481E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FA8652545F27400481E1C /* Assets.xcassets */; };
 		5C3FA8692545F27400481E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FA8672545F27400481E1C /* LaunchScreen.storyboard */; };
+		5CDE7E4225ADDD4800235722 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE7E4125ADDD4800235722 /* Meme.swift */; };
+		5CDE7E4625ADE1F000235722 /* MemeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE7E4525ADE1F000235722 /* MemeTableViewController.swift */; };
+		5CDE7E4925ADE20200235722 /* MemeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE7E4825ADE20200235722 /* MemeCollectionViewController.swift */; };
+		5CDE7E4C25ADE2C500235722 /* MemeCollecionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE7E4B25ADE2C500235722 /* MemeCollecionViewCell.swift */; };
+		5CDE7E5325BC976900235722 /* MemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE7E5225BC976900235722 /* MemeTableViewCell.swift */; };
+		5CDE7E5725C1998C00235722 /* MemeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE7E5625C1998C00235722 /* MemeDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C3FA8592545F27100481E1C /* MemeMe Practice Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemeMe Practice Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3FA85C2545F27100481E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C3FA85E2545F27100481E1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C3FA8602545F27100481E1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C3FA8602545F27100481E1C /* MemeGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeGeneratorViewController.swift; sourceTree = "<group>"; };
 		5C3FA8632545F27100481E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C3FA8652545F27400481E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3FA8682545F27400481E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3FA86A2545F27400481E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDE7E4125ADDD4800235722 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		5CDE7E4525ADE1F000235722 /* MemeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTableViewController.swift; sourceTree = "<group>"; };
+		5CDE7E4825ADE20200235722 /* MemeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewController.swift; sourceTree = "<group>"; };
+		5CDE7E4B25ADE2C500235722 /* MemeCollecionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollecionViewCell.swift; sourceTree = "<group>"; };
+		5CDE7E5225BC976900235722 /* MemeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTableViewCell.swift; sourceTree = "<group>"; };
+		5CDE7E5625C1998C00235722 /* MemeDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,51 @@
 			children = (
 				5C3FA85C2545F27100481E1C /* AppDelegate.swift */,
 				5C3FA85E2545F27100481E1C /* SceneDelegate.swift */,
-				5C3FA8602545F27100481E1C /* ViewController.swift */,
+				5C3FA86A2545F27400481E1C /* Info.plist */,
+				5C65D6C52676564200A18CCC /* Model */,
+				5C65D6C62676564700A18CCC /* View */,
+				5C65D6C72676565400A18CCC /* Controller */,
+				5C65D6C8267656A400A18CCC /* Assets */,
+			);
+			path = "MemeMe Practice Tool";
+			sourceTree = "<group>";
+		};
+		5C65D6C52676564200A18CCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CDE7E4125ADDD4800235722 /* Meme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C65D6C62676564700A18CCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CDE7E5225BC976900235722 /* MemeTableViewCell.swift */,
+				5CDE7E4B25ADE2C500235722 /* MemeCollecionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C65D6C72676565400A18CCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C3FA8602545F27100481E1C /* MemeGeneratorViewController.swift */,
+				5CDE7E4525ADE1F000235722 /* MemeTableViewController.swift */,
+				5CDE7E4825ADE20200235722 /* MemeCollectionViewController.swift */,
+				5CDE7E5625C1998C00235722 /* MemeDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C65D6C8267656A400A18CCC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
 				5C3FA8622545F27100481E1C /* Main.storyboard */,
 				5C3FA8652545F27400481E1C /* Assets.xcassets */,
 				5C3FA8672545F27400481E1C /* LaunchScreen.storyboard */,
-				5C3FA86A2545F27400481E1C /* Info.plist */,
 			);
-			path = "MemeMe Practice Tool";
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3FA8612545F27100481E1C /* ViewController.swift in Sources */,
+				5C3FA8612545F27100481E1C /* MemeGeneratorViewController.swift in Sources */,
+				5CDE7E5725C1998C00235722 /* MemeDetailController.swift in Sources */,
+				5CDE7E5325BC976900235722 /* MemeTableViewCell.swift in Sources */,
+				5CDE7E4225ADDD4800235722 /* Meme.swift in Sources */,
 				5C3FA85D2545F27100481E1C /* AppDelegate.swift in Sources */,
+				5CDE7E4625ADE1F000235722 /* MemeTableViewController.swift in Sources */,
+				5CDE7E4C25ADE2C500235722 /* MemeCollecionViewCell.swift in Sources */,
+				5CDE7E4925ADE20200235722 /* MemeCollectionViewController.swift in Sources */,
 				5C3FA85F2545F27100481E1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA72FP4F2Q;
 				INFOPLIST_FILE = "MemeMe Practice Tool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.heath.MemeMe-Practice-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA72FP4F2Q;
 				INFOPLIST_FILE = "MemeMe Practice Tool/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,7 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.heath.MemeMe-Practice-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
